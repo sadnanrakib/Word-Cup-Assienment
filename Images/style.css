@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+/* Header style */
+.Top-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-one{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 50px;
+    background-color: indigo;
+    border-radius: 20px;
+    width: 80%;
+
+}
+.half-width{
+    width: 50%;
+    padding: 10px;
+    
+}
+.Top-text{
+ margin-left: 20px;
+ margin-top: 100px;
+
+}
+.Font-size{
+    font-size: 60px;
+    color: white;
+}
+.color{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+   
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.link-btn{
+    background-color: red;
+    animation-name:example;
+   animation-duration:4s;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+
+.half-width img {
+    width: 80%;
+}
+
+/* Header End  */
+
+/* Aside start  */
+
+.container-two{
+
+     display: flex;
+    /* align-items: center; */
+    justify-content:space-between;
+    margin: 50px auto;
+    border-radius: 20px;
+    width: 80%;
+
+    
+}
+
+.bg-color{
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    height: 300px;
+    
+} 
+
+.link{
+background-color: red ;
+color: #fff ;
+text-align: center;
+text-decoration: none;
+padding: 10px 30px;
+font-size: 20px;
+border-radius: 7px;
+display: block;
+margin: 40PX;
+}
+.aside .btn{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: red ;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 7px;
+    display: block;
+    margin: 40PX;
+
+}
+  
+
+.aside .link-one{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 7px;
+    display: block;
+    margin: 40PX;
+
+}
+
+
+/* Aside End */
+
+/* article Start  */
+
+.Top-blog{
+    
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  
+}
+
+.blogs h3{
+    padding: 10px 0;
+}
+
+
+.blogs img{
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+.icon i,.icon span{
+    
+   margin-left:10px;
+   
+}
+
+/* Upcoming Match start */
+/* Upcoming Match */
+/* Upcoming Match */
+
+.Flag-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+    
+}
+.Flag-container img{
+    width: 80px;
+    padding: 10px;
+    
+}
+ .blogs{
+   
+   border: 1px solid rgba(128, 128, 128, 0.384);
+   border-radius: 5px;
+   padding: 10px;
+ 
+} 
+
+.Flag-text{
+    text-align: center;
+}
+
+
+  /* Upcoming End  */
+  /* Upcoming End  */
+  /* Upcoming End  */
+
+/* Upcoming btn  */
+
+
+
+
+
+
+
+
+.Top-footer{
+    background-color: #000;
+    padding: 20px 0;
+    
+}
+
+.container{
+   width: 80%;
+   margin: 0 auto;
+   
+}
+
+.footer-title{
+    text-align: center;
+    color: #fff;
+  
+     padding: 25px 0; 
+}
+.footer-contant{
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.footer-contant a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+
+.soical-icon{
+    text-align: center;
+    
+}
+.soical-icon a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+@media only screen and (max-width:768px) {
+    .container-two{
+        flex-wrap: wrap;
+    }
+    .aside{
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .bg-color{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+       
+       
+       display: flex;
+       justify-content: center;
+    }
+    
+    .Top-blog{
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        margin: 0 auto;
+        place-items:center;
+        align-items: center;
+        justify-self:center;
+      }
+}
+
+
+@media only screen and (max-width:668px) {
+
+    .Top-blog{
+    
+        
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .blog-btn{
+        display: block;
+    }
+
+    .blogs img{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .blogs{
+        padding: 10px;
+    }
+    .aside .link-one{
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        background-color: white;
+        padding: 5px 20px;
+        font-size: 14px;
+        border-radius: 7px;
+        display: inline-block;
+        margin-top:10px;
+    
+    }
+}
+
+
+
