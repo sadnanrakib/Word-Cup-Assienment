@@ -54,15 +54,7 @@
     cursor: pointer;
 }
 
-.link-btn{
-    background-color: red;
-    animation-name:example;
-   animation-duration:4s;
-}
-@keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-}
+
 
 
 .half-width img {
@@ -105,6 +97,7 @@ border-radius: 7px;
 display: block;
 margin: 40PX;
 }
+
 .aside .btn{
     text-align: center;
     text-decoration: none;
@@ -196,7 +189,6 @@ margin: 40PX;
   /* Upcoming End  */
   /* Upcoming End  */
 
-/* Upcoming btn  */
 
 
 
@@ -204,6 +196,7 @@ margin: 40PX;
 
 
 
+/* Footer start  */
 
 .Top-footer{
     background-color: #000;
@@ -247,6 +240,10 @@ margin: 40PX;
     font-size: 24px;
 }
 
+/* Footer End  */
+
+/* Tablet Start  */
+
 @media only screen and (max-width:768px) {
     .container-two{
         flex-wrap: wrap;
@@ -262,8 +259,6 @@ margin: 40PX;
         width: 100%;
         text-align: center;
         margin-bottom: 20px;
-       
-       
        display: flex;
        justify-content: center;
     }
@@ -278,10 +273,40 @@ margin: 40PX;
         align-items: center;
         justify-self:center;
       }
+      .footer-contant a{
+        text-align: center;
+        padding: 20px 0;
+        margin-left: 10px;
+        
+        
+    }
+
+    
+.View{
+
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+    
+    
+    }
+    
+    .View a{
+        color: #fff;
+        text-decoration: none;
+        background-color: red;
+        padding: 5px 10px;
+        border-radius: 7px;
+    }
+
 }
 
 
-@media only screen and (max-width:668px) {
+/* Tblet End  */
+
+/* Mobile Start  */
+@media only screen and (max-width:600px) {
 
     .Top-blog{
     
@@ -301,19 +326,22 @@ margin: 40PX;
     .blogs{
         padding: 10px;
     }
-    .aside .link-one{
+    .footer-contant a{
         text-align: center;
-        text-decoration: none;
-        color: #000;
-        background-color: white;
-        padding: 5px 20px;
-        font-size: 14px;
-        border-radius: 7px;
-        display: inline-block;
-        margin-top:10px;
-    
+        padding: 20px 0;
+        display: block;
+        
     }
+    .soical-icon a{
+        margin-right: 30px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        margin-left: 20px;
+    }
+
+
 }
 
-
+/* Mobile End  */
 
