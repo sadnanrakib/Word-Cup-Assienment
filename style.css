@@ -356,6 +356,27 @@ margin: 40PX;
         margin-left: 20px;
     }
 
+    .bg-color{
+        
+        /* border-radius: 20px; */
+        /* margin-right: 20px; */
+         /* padding: 5px 10px;
+        height: 300px;  */
+        
+    } 
+    .aside .btn{
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: red ;
+        /* padding: 10px 30px; */
+        font-size: 20px;
+        border-radius: 7px;
+        display: block;
+        margin: 40PX;
+    
+    }
+
 
 }
 
